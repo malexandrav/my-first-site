@@ -5,15 +5,12 @@ body {
   font-size: 16px;
   line-height: 32px;
   color: #222222;
-  background-color: #faffc2;
   background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+  background: linear-gradient(180deg, rgba(255,105,180,0.8726201432474543) 0%, rgba(250,255,194,1) 100%);
 }
 
-#a1 {
-  background-color: pink;
-}
 
 .container {
   max-width: 928px;
@@ -57,7 +54,7 @@ body {
 .hero-image .container {
   max-width: 1408px;
   text-align: center;
-  background-color: #faffc2;
+
 }
 
 .heading {
@@ -66,7 +63,6 @@ body {
   font-size: 67px;
   line-height: 96px;
   font-weight: 400;
-  background-color: #faffc2;
 }
 
 .hero-image p {
